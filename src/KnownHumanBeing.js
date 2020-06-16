@@ -11,7 +11,7 @@ export default class KnownHumanBeing extends React.Component {
                 <div className="human-main">
                     <div className="favourite">
                         <div className="human-image">
-                            <img src={`../public/images/${this.props.name}.jpg`} alt={this.props.name}></img>
+                            <img src={`./images/${this.props.name}.jpg`} alt={this.props.name}></img>
                         </div>
                         <div className="human-info">
                             <h2><a href={this.props.link}>{this.props.name}</a></h2>

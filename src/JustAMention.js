@@ -5,7 +5,7 @@ export default class JustAMention extends React.Component {
         return (
             <div className="mentioned-human">
                 <div className="mentioned-image">
-                    <img src={`../public/images/${this.props.name}.jpg`} alt={this.props.name}></img>
+                    <img src={`./images/${this.props.name}.jpg`} alt={this.props.name}></img>
                 </div>
                 <div className='mentioned-info'>
                     <h4>{this.props.name}</h4>
