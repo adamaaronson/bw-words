@@ -215,6 +215,7 @@ header {
 
     .human-name {
         font-size: 1.2em;
+        line-height: 1.8em;
     }
 
     .just-a-mention {
