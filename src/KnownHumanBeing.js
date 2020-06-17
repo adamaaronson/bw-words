@@ -15,8 +15,8 @@ export default class KnownHumanBeing extends React.Component {
                         </div>
                     </div>
                     <div className="human-info">
-                        <h2><a href={this.props.link}>{this.props.name}</a></h2>
-                        <h3 dangerouslySetInnerHTML={{__html: this.props.subtitle}}></h3>
+                        <h2 className="human-name"><a href={this.props.link}>{this.props.name}</a></h2>
+                        <h3 className="human-subtitle" dangerouslySetInnerHTML={{__html: this.props.subtitle}}></h3>
                         <p dangerouslySetInnerHTML={{__html: this.props.blurb}}></p>
                     </div>
                 </div>

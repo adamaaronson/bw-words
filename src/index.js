@@ -31,35 +31,41 @@ class App extends React.Component {
 
     render() {
         return (
-            <div className='content'>
-                <div className='headers'>
-                    <h2>Supervocalics</h2>
-                    <h1>Known Human Beings</h1>
-                </div>
+            <div>
+                <header>
+                    <div className='content'>
+                        <div className='headers'>
+                            <h2>Supervocalics</h2>
+                            <h1>Known Human Beings</h1>
+                        </div>
 
-                <div className='vowel-filters'>
-                    <h4 className='vowel-filters-label'>Jump to:</h4>
-                    {['A', 'E', 'I', 'O', 'U'].map(
-                        vowel => <button
-                            className={"vowel-button" + (this.state.vowelFilter === vowel ? " active-vowel-button" : "")}
-                            key={vowel}
-                            vowel={vowel}
-                            onClick={() => this.handleClick(vowel)}
-                        >{vowel}</button>
+                        <div className='vowel-filters'>
+                            <h4 className='vowel-filters-label'>Jump to:</h4>
+                            {['A', 'E', 'I', 'O', 'U'].map(
+                                vowel => <button
+                                    className={"vowel-button" + (this.state.vowelFilter === vowel ? " active-vowel-button" : "")}
+                                    key={vowel}
+                                    vowel={vowel}
+                                    onClick={() => this.handleClick(vowel)}
+                                >{vowel}</button>
+                            )}
+                        </div>
+                    </div>
+                </header>
+                <div className='content'>
+                    { this.state.humans.filter(human => human.vowels.startsWith(this.state.vowelFilter)).map(
+                        human => <KnownHumanBeing
+                            {... human}
+                            key={ human.name }
+                            mentions={this.state.mentions.filter(
+                                mention => mention.vowels === human.vowels
+                            )}
+                        />
                     )}
+                    
                 </div>
-
-                { this.state.humans.filter(human => human.vowels.startsWith(this.state.vowelFilter)).map(
-                    human => <KnownHumanBeing
-                        {... human}
-                        key={ human.name }
-                        mentions={this.state.mentions.filter(
-                            mention => mention.vowels === human.vowels
-                        )}
-                    />
-                )}
-                
             </div>
+            
                 
         );
     }

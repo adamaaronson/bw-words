@@ -26,6 +26,8 @@ i {
 
 a {
     color: currentColor;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(34, 34, 34, 0.2);
 }
 
 button, a {
@@ -34,6 +36,13 @@ button, a {
 
 a:hover, button:hover {
     opacity: 0.6;
+}
+
+header {
+    background: #EEE;
+    margin-top: 0;
+    margin-bottom: var(--spacing-unit);
+    padding: var(--spacing-unit);
 }
 
 .content {
@@ -93,7 +102,6 @@ a:hover, button:hover {
 
 .active-vowel-button {
     font-weight: bold;
-    border-bottom: 2px solid var(--text-color);
 }
 
 .humans {
@@ -113,10 +121,11 @@ a:hover, button:hover {
     border-bottom: 1px solid lightgrey;
 }
 
-.known-human-being h3 {
+.human-subtitle {
     /* margin-top: calc(var(--spacing-unit) * 0.5); */
     margin-bottom: calc(var(--spacing-unit) * 1.5);
     font-weight: normal;
+    font-size: 1em;
     /* font-style: italic; */
     color: var(--grey-color);
 }
@@ -200,10 +209,12 @@ a:hover, button:hover {
         display: block;
     }
 
-    
-
     .headers {
         font-size: 1em;
+    }
+
+    .human-name {
+        font-size: 1.2em;
     }
 
     .just-a-mention {
