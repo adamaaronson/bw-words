@@ -15,8 +15,8 @@ export default class KnownHumanBeing extends React.Component {
                         </div>
                         <div className="human-info">
                             <h2><a href={this.props.link}>{this.props.name}</a></h2>
-                            <h3>{this.props.subtitle}</h3>
-                            <p>{this.props.blurb}</p>
+                            <h3 dangerouslySetInnerHTML={{__html: this.props.subtitle}}></h3>
+                            <p dangerouslySetInnerHTML={{__html: this.props.blurb}}></p>
                         </div>
                     </div>
                     { this.props.mentions.length > 0 && <h4 className="just-a-mention-header">Just a mention:</h4>}
