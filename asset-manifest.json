@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/known-human-beings/static/css/main.3425eb4c.chunk.css",
+    "main.css": "/known-human-beings/static/css/main.aedc26da.chunk.css",
     "main.js": "/known-human-beings/static/js/main.f48b3b7b.chunk.js",
     "main.js.map": "/known-human-beings/static/js/main.f48b3b7b.chunk.js.map",
     "runtime-main.js": "/known-human-beings/static/js/runtime-main.d855ec26.js",
@@ -8,15 +8,15 @@
     "static/js/2.504708c2.chunk.js": "/known-human-beings/static/js/2.504708c2.chunk.js",
     "static/js/2.504708c2.chunk.js.map": "/known-human-beings/static/js/2.504708c2.chunk.js.map",
     "index.html": "/known-human-beings/index.html",
-    "precache-manifest.370093b85023a591d2f6b8a54147c83a.js": "/known-human-beings/precache-manifest.370093b85023a591d2f6b8a54147c83a.js",
+    "precache-manifest.50dc0a63b961386e8f33dbe1e055b919.js": "/known-human-beings/precache-manifest.50dc0a63b961386e8f33dbe1e055b919.js",
     "service-worker.js": "/known-human-beings/service-worker.js",
-    "static/css/main.3425eb4c.chunk.css.map": "/known-human-beings/static/css/main.3425eb4c.chunk.css.map",
+    "static/css/main.aedc26da.chunk.css.map": "/known-human-beings/static/css/main.aedc26da.chunk.css.map",
     "static/js/2.504708c2.chunk.js.LICENSE.txt": "/known-human-beings/static/js/2.504708c2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d855ec26.js",
     "static/js/2.504708c2.chunk.js",
-    "static/css/main.3425eb4c.chunk.css",
+    "static/css/main.aedc26da.chunk.css",
     "static/js/main.f48b3b7b.chunk.js"
   ]
 }
