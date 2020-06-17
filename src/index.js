@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Papa from 'papaparse';
 import KnownHumanBeing from './KnownHumanBeing';
 import './style.css';
 
@@ -14,15 +15,18 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        fetch("favourites.json")
-            .then(results => results.json())
-            .then(data => this.setState({ humans: data }))
-            .catch(console.log);
+        const favourites = require('fs');
+        Papa.parse('./favourites.csv', {
+            download: true,
+            complete: results => this.setState({humans: results.data}),
+            header: true
+        });
 
-        fetch("mentions.json")
-            .then(results => results.json())
-            .then(data => this.setState({ mentions: data }))
-            .catch(console.log);
+        Papa.parse('./justamention.csv', {
+            download: true,
+            complete: results => this.setState({mentions: results.data}),
+            header: true
+        });
     }
 
     handleClick(vowel) {
