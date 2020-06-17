@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/known-human-beings/static/css/main.ea7e031c.chunk.css",
-    "main.js": "/known-human-beings/static/js/main.05f7acff.chunk.js",
-    "main.js.map": "/known-human-beings/static/js/main.05f7acff.chunk.js.map",
+    "main.css": "/known-human-beings/static/css/main.3425eb4c.chunk.css",
+    "main.js": "/known-human-beings/static/js/main.f48b3b7b.chunk.js",
+    "main.js.map": "/known-human-beings/static/js/main.f48b3b7b.chunk.js.map",
     "runtime-main.js": "/known-human-beings/static/js/runtime-main.d855ec26.js",
     "runtime-main.js.map": "/known-human-beings/static/js/runtime-main.d855ec26.js.map",
     "static/js/2.504708c2.chunk.js": "/known-human-beings/static/js/2.504708c2.chunk.js",
     "static/js/2.504708c2.chunk.js.map": "/known-human-beings/static/js/2.504708c2.chunk.js.map",
     "index.html": "/known-human-beings/index.html",
-    "precache-manifest.813dbcfcf9218ad42b109d00783d8b52.js": "/known-human-beings/precache-manifest.813dbcfcf9218ad42b109d00783d8b52.js",
+    "precache-manifest.370093b85023a591d2f6b8a54147c83a.js": "/known-human-beings/precache-manifest.370093b85023a591d2f6b8a54147c83a.js",
     "service-worker.js": "/known-human-beings/service-worker.js",
-    "static/css/main.ea7e031c.chunk.css.map": "/known-human-beings/static/css/main.ea7e031c.chunk.css.map",
+    "static/css/main.3425eb4c.chunk.css.map": "/known-human-beings/static/css/main.3425eb4c.chunk.css.map",
     "static/js/2.504708c2.chunk.js.LICENSE.txt": "/known-human-beings/static/js/2.504708c2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d855ec26.js",
     "static/js/2.504708c2.chunk.js",
-    "static/css/main.ea7e031c.chunk.css",
-    "static/js/main.05f7acff.chunk.js"
+    "static/css/main.3425eb4c.chunk.css",
+    "static/js/main.f48b3b7b.chunk.js"
   ]
 }
