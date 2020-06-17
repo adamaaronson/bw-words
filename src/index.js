@@ -38,7 +38,7 @@ class App extends React.Component {
                 </div>
 
                 <div className='vowel-filters'>
-                    <h4 className='vowel-filters-label'>First vowel:</h4>
+                    <h4 className='vowel-filters-label'>Jump to:</h4>
                     {['A', 'E', 'I', 'O', 'U'].map(
                         vowel => <button
                             className={"vowel-button" + (this.state.vowelFilter === vowel ? " active-vowel-button" : "")}

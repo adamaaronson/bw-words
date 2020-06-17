@@ -113,11 +113,6 @@ a:hover, button:hover {
     border-bottom: 1px solid lightgrey;
 }
 
-.favourite {
-    display: flex;
-    margin-bottom: var(--spacing-unit);
-}
-
 .known-human-being h3 {
     /* margin-top: calc(var(--spacing-unit) * 0.5); */
     margin-bottom: calc(var(--spacing-unit) * 1.5);
@@ -133,6 +128,43 @@ a:hover, button:hover {
     box-shadow: 5px 5px var(--text-color);
 }
 
+.human-sidebar {
+    display: flex;
+}
+
+.human-header {
+    /* flex: 1 0 100%; */
+    min-width: 7em;
+}
+
+.favourite {
+    flex: 1 0 100%;
+    display: flex;
+    margin-bottom: var(--spacing-unit);
+}
+
+.human-vowels {
+    font-size: 1.8em;
+}
+
+.just-a-mention {
+    margin-left: 7em;
+}
+
+.just-a-mention-header {
+    margin-top: calc(2 * var(--spacing-unit));
+    margin-bottom: var(--spacing-unit);
+    font-weight: normal;
+    font-style: italic;
+    color: var(--grey-color);
+    flex: 1 0 100%;
+}
+
+.just-a-mention-body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 .mentioned-image {
     min-width: 80px;
     height: 80px;
@@ -142,33 +174,6 @@ a:hover, button:hover {
 .mentioned-subtitle {
     font-weight: normal;
     color: var(--grey-color);
-}
-
-.human-header {
-    flex: 0;
-    min-width: 6em;
-}
-
-.human-vowels {
-    font-size: 1.8em;
-}
-
-.human-main {
-    flex: 1;
-    margin-left: calc(2 * var(--spacing-unit));
-}
-
-.just-a-mention-header {
-    margin-top: calc(2 * var(--spacing-unit));
-    margin-bottom: var(--spacing-unit);
-    font-weight: normal;
-    font-style: italic;
-    color: var(--grey-color)
-}
-
-.just-a-mention {
-    display: flex;
-    flex-flow: row wrap;
 }
 
 .mentioned-human {
@@ -188,20 +193,21 @@ a:hover, button:hover {
     }
 
     .human-header {
-        flex: 1 100%;
-    }
-
-    .human-main {
-        margin-left: 0;
-    }
-
-    .vowel-filters-label {
-        display: block;
         margin-bottom: var(--spacing-unit);
     }
 
+    .human-sidebar {
+        display: block;
+    }
+
+    
+
     .headers {
         font-size: 1em;
+    }
+
+    .just-a-mention {
+        margin-left: 0;
     }
 
     .mentioned-human {
@@ -215,5 +221,12 @@ a:hover, button:hover {
     .mentioned-info {
         text-align: center;
         max-width: 100px;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .vowel-filters-label {
+        display: block;
+        margin-bottom: var(--spacing-unit);
     }
 }
