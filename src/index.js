@@ -42,7 +42,7 @@ class App extends React.Component {
                                 <img class='beyond-wordplay-logo' alt='Beyond Wordplay' src='./images/beyondwordplaylogo.png'></img>
                             </a>
                             <h1>Known Human Beings</h1>
-                            <h3>Supervocalic People for All Permutations</h3>
+                            <h3>Supervocalic People for Every Permutation</h3>
                         </div>
 
                         <div className='vowel-filters'>
