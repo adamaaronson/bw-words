@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "334580930662cb5351965e59fc414b79",
+    "revision": "0b4c8d55e4ae061110c139f07ac03c83",
     "url": "/known-human-beings/index.html"
   },
   {
-    "revision": "5afedff96e268f8200e7",
+    "revision": "a3a85aa17dae530e2631",
     "url": "/known-human-beings/static/css/main.f539c943.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/known-human-beings/static/js/2.ee07e16d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5afedff96e268f8200e7",
-    "url": "/known-human-beings/static/js/main.2d3716f2.chunk.js"
+    "revision": "a3a85aa17dae530e2631",
+    "url": "/known-human-beings/static/js/main.c948e655.chunk.js"
   },
   {
     "revision": "1b5f65f577369af089cf",
