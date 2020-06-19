@@ -15,7 +15,6 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        const favourites = require('fs');
         Papa.parse('./favourites.csv', {
             download: true,
             complete: results => this.setState({humans: results.data}),
@@ -40,7 +39,7 @@ class App extends React.Component {
                     <div className='content'>
                         <div className='headers'>
                             <a class='beyond-wordplay-link' href='http://beyondwordplay.com'>
-                                <img class='beyond-wordplay-logo' src='./images/beyondwordplaylogo.png'></img>
+                                <img class='beyond-wordplay-logo' alt='Beyond Wordplay' src='./images/beyondwordplaylogo.png'></img>
                             </a>
                             <h1>Known Human Beings</h1>
                             <h3>Supervocalic People for Every Permutation</h3>
@@ -50,6 +49,7 @@ class App extends React.Component {
                             <h4 className='vowel-filters-label'>Jump to:</h4>
                             {['A', 'E', 'I', 'O', 'U'].map(
                                 vowel => <a
+                                    href="#top"
                                     className={"vowel-button" + (this.state.vowelFilter === vowel ? " active-vowel-button" : "")}
                                     key={vowel}
                                     vowel={vowel}
