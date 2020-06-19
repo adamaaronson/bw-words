@@ -36,22 +36,25 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <header>
+                <header id='top'>
                     <div className='content'>
                         <div className='headers'>
-                            <h2>Supervocalics</h2>
+                            <a class='beyond-wordplay-link' href='http://beyondwordplay.com'>
+                                <img class='beyond-wordplay-logo' src='./images/beyondwordplaylogo.png'></img>
+                            </a>
                             <h1>Known Human Beings</h1>
+                            <h3>Supervocalic People for Every Permutation</h3>
                         </div>
 
                         <div className='vowel-filters'>
                             <h4 className='vowel-filters-label'>Jump to:</h4>
                             {['A', 'E', 'I', 'O', 'U'].map(
-                                vowel => <button
+                                vowel => <a
                                     className={"vowel-button" + (this.state.vowelFilter === vowel ? " active-vowel-button" : "")}
                                     key={vowel}
                                     vowel={vowel}
                                     onClick={() => this.handleClick(vowel)}
-                                >{vowel}</button>
+                                >{vowel}</a>
                             )}
                         </div>
                     </div>
@@ -66,11 +69,25 @@ class App extends React.Component {
                             )}
                         />
                     )}
-                    
                 </div>
-            </div>
-            
                 
+                <footer>
+                    <div className='content'>
+                        <div className='vowel-filters bottom-vowel-filters'>
+                            <h4 className='vowel-filters-label'>Jump to:</h4>
+                            {['A', 'E', 'I', 'O', 'U'].map(
+                                vowel => <a
+                                    href="#top"
+                                    className={"vowel-button" + (this.state.vowelFilter === vowel ? " active-vowel-button" : "")}
+                                    key={vowel}
+                                    vowel={vowel}
+                                    onClick={() => this.handleClick(vowel)}
+                                >{vowel}</a>
+                            )}
+                        </div>
+                    </div>
+                </footer>
+            </div> 
         );
     }
 }
