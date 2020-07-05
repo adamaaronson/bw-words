@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f5d90facfb163400a02e5b904985d67",
+    "revision": "53fe82ed7375f757a56be4c5710bce0e",
     "url": "/supervocalics/index.html"
   },
   {
-    "revision": "a0cf535215c10975b6c7",
+    "revision": "52fa78d062ef5b48df4f",
     "url": "/supervocalics/static/css/main.399f564b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/supervocalics/static/js/2.ba14a034.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a0cf535215c10975b6c7",
-    "url": "/supervocalics/static/js/main.267c385b.chunk.js"
+    "revision": "52fa78d062ef5b48df4f",
+    "url": "/supervocalics/static/js/main.645598c8.chunk.js"
   },
   {
     "revision": "d16562426823d92f6bd8",
