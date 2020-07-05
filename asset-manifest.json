@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/known-human-beings/static/css/main.399f564b.chunk.css",
-    "main.js": "/known-human-beings/static/js/main.267c385b.chunk.js",
-    "main.js.map": "/known-human-beings/static/js/main.267c385b.chunk.js.map",
-    "runtime-main.js": "/known-human-beings/static/js/runtime-main.d855ec26.js",
-    "runtime-main.js.map": "/known-human-beings/static/js/runtime-main.d855ec26.js.map",
-    "static/js/2.ba14a034.chunk.js": "/known-human-beings/static/js/2.ba14a034.chunk.js",
-    "static/js/2.ba14a034.chunk.js.map": "/known-human-beings/static/js/2.ba14a034.chunk.js.map",
-    "index.html": "/known-human-beings/index.html",
-    "precache-manifest.cf21529455520dd9d20e56f25a01aea1.js": "/known-human-beings/precache-manifest.cf21529455520dd9d20e56f25a01aea1.js",
-    "service-worker.js": "/known-human-beings/service-worker.js",
-    "static/css/main.399f564b.chunk.css.map": "/known-human-beings/static/css/main.399f564b.chunk.css.map",
-    "static/js/2.ba14a034.chunk.js.LICENSE.txt": "/known-human-beings/static/js/2.ba14a034.chunk.js.LICENSE.txt"
+    "main.css": "/supervocalics/static/css/main.399f564b.chunk.css",
+    "main.js": "/supervocalics/static/js/main.267c385b.chunk.js",
+    "main.js.map": "/supervocalics/static/js/main.267c385b.chunk.js.map",
+    "runtime-main.js": "/supervocalics/static/js/runtime-main.bb6a0f4f.js",
+    "runtime-main.js.map": "/supervocalics/static/js/runtime-main.bb6a0f4f.js.map",
+    "static/js/2.ba14a034.chunk.js": "/supervocalics/static/js/2.ba14a034.chunk.js",
+    "static/js/2.ba14a034.chunk.js.map": "/supervocalics/static/js/2.ba14a034.chunk.js.map",
+    "index.html": "/supervocalics/index.html",
+    "precache-manifest.c36db43069c37f6cbc7d0d45276fbffc.js": "/supervocalics/precache-manifest.c36db43069c37f6cbc7d0d45276fbffc.js",
+    "service-worker.js": "/supervocalics/service-worker.js",
+    "static/css/main.399f564b.chunk.css.map": "/supervocalics/static/css/main.399f564b.chunk.css.map",
+    "static/js/2.ba14a034.chunk.js.LICENSE.txt": "/supervocalics/static/js/2.ba14a034.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d855ec26.js",
+    "static/js/runtime-main.bb6a0f4f.js",
     "static/js/2.ba14a034.chunk.js",
     "static/css/main.399f564b.chunk.css",
     "static/js/main.267c385b.chunk.js"
