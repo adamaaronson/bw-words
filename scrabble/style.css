@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
     color: var(--text-color);
+    font-family: var(--body-font-family);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -93,8 +94,57 @@ footer {
     font-style: italic;
 }
 
+.body {
+    padding: var(--spacing-unit);
+    margin: var(--spacing-unit);
+}
+
+.body h1, .body h2, .body h3, .body h4, .body h5, .body h6 {
+    margin-bottom: 0.5em;
+}
+
+.body img {
+    max-width: 100%;
+}
+
+/* SCRABBLEGRAMS PAGE */
+
+.publication {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: var(--spacing-unit);
+}
+
+.scrabblegram {
+    background: url('./images/woodtile.jpeg');
+    padding: var(--spacing-unit);
+    margin-bottom: var(--spacing-unit);
+    box-shadow: 2px 2px #ac8c5d;
+}
+
+.scrabblegram p {
+    font-family: var(--header-font-family);
+    font-weight: bold;
+}
+
+.scrabblegram-info {
+    font-weight: normal;
+    color: var(--grey-color);
+}
+
 @media all and (max-width: 600px) {
     .headers {
-        font-size: 1em;
+        font-size: 1.1em;
+    }
+
+    .publication {
+        display: block;
+    }
+
+    .body img {
+        height: 300px;
+        display: block;
+        margin: auto;
+        margin-bottom: var(--spacing-unit);
     }
 }
