@@ -28,8 +28,9 @@ p {
     color: var(--medium-color);
 }
 
-i {
+i, del, b {
     color: currentColor;
+    font-family: inherit;
 }
 
 p b {
@@ -40,7 +41,8 @@ p b {
 a {
     color: currentColor;
     text-decoration: none;
-    border-bottom: var(--link-border);
+    cursor: pointer;
+    /* border-bottom: var(--link-border); */
 }
 
 button, a {
@@ -109,17 +111,34 @@ footer {
 
 /* SCRABBLEGRAMS PAGE */
 
+.publication-header {
+    line-height: 3em;
+}
+
 .publication {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: var(--spacing-unit);
+    
+}
+
+.publication:not(:last-child) {
+    padding-bottom: calc(2 * var(--spacing-unit));
+    border-bottom: 1px solid #BBB;
+    margin-bottom: calc(2 * var(--spacing-unit));
 }
 
 .scrabblegram {
-    background: url('./images/woodtile.jpeg');
+    background: #EEE;
+    /* background: url('./images/woodtile.jpeg'); */
     padding: var(--spacing-unit);
     margin-bottom: var(--spacing-unit);
-    box-shadow: 2px 2px #ac8c5d;
+    /* box-shadow: 2px 2px #ac8c5d; */
+}
+
+.winner {
+    border: 5px solid #ffd25f;
+    background: #fde9b5
 }
 
 .scrabblegram p {
